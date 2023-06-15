@@ -20,7 +20,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white border-b flex items-center h-14 px-4 dark:bg-slate-700">
       <nav className="flex space-x-10 mx-auto sm:space-x-16">
         <div className="">
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">TanakaRyo's Portfolio</span>
+          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">TanakaRyo&apos;s Portfolio</span>
         </div>
         <div className="">
           <button className="pt-0.5 xl:hover:scale-125" onClick={toggleMode}>

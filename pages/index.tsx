@@ -1,18 +1,19 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
     <div className="py-8 px-2 flex flex-col justify-center items-center md:py-12">
       <Head>
-        <title>TanakaRyo's Portfolio</title>
+        <title>TanakaRyo&aposs Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-2 sm:m-4">
         <div className="h-24 w-auto flex items-center justify-center">
           <div className="flex items-center space-x-2 sm:space-x-4">
             <div className="flex-shrink-0">
-              <img className="float-left w-24 h-24 mb-3 mr-4 rounded-full shadow-lg object-cover sm:h-36 sm:w-36" src="/images/profile.png" alt=""></img>
+              <Image className="float-left w-24 h-24 mb-3 mr-4 rounded-full shadow-lg object-cover sm:h-36 sm:w-36"  width={100} height={100} src="/images/profile.png" alt="pct" />
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-lg font-medium text-gray-900 truncate dark:text-white">
@@ -30,7 +31,7 @@ const Home: NextPage = () => {
         Profile
         </h2>
         <div className="mb-6 text-lg text-left font-normal text-gray-900 lg:text-xl dark:text-gray-300">
-          <p>I'm Tanaka Ryo,Japanese SoftwearEnginner.</p>
+          <p>I&apos;m Tanaka Ryo,Japanese SoftwearEnginner.</p>
           <p> I love Frontend and simple code.</p>
         </div>
       </div>

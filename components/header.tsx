@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import { useState } from 'react';
 
 const Header = () => {
   const [boolState, setBoolState] = useState(false)

@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         Profile
         </h2>
         <div className="mb-6 text-lg text-left font-normal text-gray-900 lg:text-xl dark:text-gray-300">
-          <p>I&apos;m Tanaka Ryo,Japanese SoftwearEnginner.</p>
+          <p>I&apos;m Tanaka Ryo,Japanese SoftwareEnginner.</p>
           <p> I love Frontend and simple code.</p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const branchName = process.env.BRANCH_NAME ? "/" : "";
+const branchName = "";
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,

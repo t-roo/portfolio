@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className="py-8 px-2 flex flex-col justify-center items-center md:py-12">
       <Head>
-        <title>TanakaRyo&aposs Portfolio</title>
+        <title>TanakaRyo&apos;s Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-2 sm:m-4">
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
         <h2 className="mb-4 text-4xl text-left font-mediu leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white" id="disired">
         Disired
         </h2>
-          <ul className="mb-6 text-lg text-left font-normal space-y-4 dark:text-gray-300">
+          <ul className="mb-6 text-lg text-gray-900 text-left font-normal space-y-4 dark:text-gray-300">
             <li className="flex items-center">
               <svg className="h-6 w-6 fill-none stroke-none stroke-1" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />

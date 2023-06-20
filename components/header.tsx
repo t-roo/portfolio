@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b flex items-center h-14 px-4 dark:bg-slate-700">
-      <nav className="flex space-x-10 mx-auto sm:space-x-16">
+      <nav className="flex space-x-20 mx-auto sm:space-x-16 sm:mx-auto">
         <div className="">
           <span className="self-center text-gray-900 text-xl font-semibold whitespace-nowrap dark:text-white">TanakaRyo&apos;s Portfolio</span>
         </div>

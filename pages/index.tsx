@@ -4,16 +4,16 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className="py-8 px-2 flex flex-col justify-center items-center md:py-12">
+    <div className="py-8 px-4 flex flex-col items-center justify-center md:py-12">
       <Head>
         <title>TanakaRyo&apos;s Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="m-2 sm:m-4">
+      <div className="m-2 w-full sm:m-4 sm:w-[462px]">
         <div className="h-24 w-auto flex items-center justify-center">
           <div className="flex items-center space-x-2 sm:space-x-4">
             <div className="flex-shrink-0">
-              <Image className="float-left w-24 h-24 mb-3 mr-4 rounded-full shadow-lg object-cover sm:h-36 sm:w-36"  width={100} height={100} src="/images/profile.png" alt="pct" />
+              <Image className="w-24 h-24 mb-3 mr-4 rounded-full object-cover sm:h-36 sm:w-36"  width={100} height={100} src="/images/profile.png" alt="pct" />
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-lg font-medium text-gray-900 truncate dark:text-white">
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="m-2 sm:m-4">
+      <div className="m-2 w-full sm:m-4 sm:w-[462px]">
         <h2 className="mb-4 text-4xl text-left font-mediu leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white" id="profile">
         Profile
         </h2>
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           <p> I love Frontend and simple code.</p>
         </div>
       </div>
-      <div className="m-2 sm:m-4">
+      <div className="m-2 w-full sm:m-4 sm:w-[462px]">
         <h2 className="mb-4 text-4xl text-left font-mediu leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white" id="career">
         Career
         </h2>
@@ -45,8 +45,8 @@ const Home: NextPage = () => {
           <p>2018/8~2019/9 Worked at Moly.</p>
           <p>2019/10~Now. Working as Freelance.</p>
         </div>
-      </div>
-      <div className="m-2 sm:m-4">
+      </div> 
+      <div className="m-2 w-full sm:m-4 sm:w-[462px]">
         <h2 className="mb-4 text-4xl text-left font-mediu leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white" id="disired">
         Disired
         </h2>
@@ -75,15 +75,17 @@ const Home: NextPage = () => {
             </li>
           </ul>
       </div>
-      <div className="m-2 sm:m-4">
+      <div className="m-2 w-full sm:m-4 sm:w-[462px]">
         <h2 className="mb-4 text-4xl text-left font-mediu leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white" id="disired">
         Contact
         </h2>
-        <p className="mb-6 text-lg font-normal text-gray-900 lg:text-xl dark:text-gray-300">
-          I would like the following:
-        </p>
+        <div className="mb-6 text-lg text-left font-normal text-blue-500 lg:text-xl dark:text-blue-400">
+          <a href="https://github.com/t-roo" target="_blank" rel="noopener noreferrer" className=''>github</a>
+        </div>
       </div> 
-      <a href="https://www.wantedly.com/id/tanakaryo" target="_blank" rel="noopener noreferrer" className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 hover:opacity-75">Learn more</a>
+      <div className="m-2 flex justify-center items-center w-full sm:m-4 sm:w-[462px]">
+        <a href="https://www.wantedly.com/id/tanakaryo" target="_blank" rel="noopener noreferrer" className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 hover:opacity-75 dark:bg-blue-400">Learn more</a>
+      </div>
     </div>
   )
 }
